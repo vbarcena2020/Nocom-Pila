@@ -1,7 +1,5 @@
-# My personal page
-Implemented **WhatATheme** a customizable Jekyll Portfolio theme which supports blogging, to create my personal page.
-
-![My_personal_page](assets/images/site_image.png)
+# Nocom-Pila web page
+Implemented **WhatATheme** a customizable Jekyll Portfolio theme which supports blogging, to create this page.
 
 # Features :sparkles:
 * Free and Easy setup

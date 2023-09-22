@@ -1,36 +1,70 @@
 <section class="hero is-fullheight has-text-centered has-background-black-ter" id="contact">
     <div class="hero-body">
         <div class="container">
-            {% unless site.github_username == %}
-            <a id="contact-button" href="https://www.github.com/{{site.github_username}}"
+            {% unless site.email == %}
+            <a id="contact-button" href="https://www.urjc.es/todas-las-noticias-de-actualidad/7352-la-urjc-ganadora-de-la-european-robocup-2022"
                 class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
-                <i class="fab fa-github"></i>Look at my github
-            </a> 
+                <i class="fas fa-trophy"></i> European RoboCup@Home Education 2022
+            </a>
             {% endunless %}
             {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
-                <i class="fas fa-envelope"></i>Send me an Email
+                <i class="fas fa-envelope"></i>Send us an Email
             </a>
             {% endunless %}
-            {% unless site.twitter_username == %}
+            <!-- {% unless site.twitter_username == %}
             <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
                 <i class="fab fa-twitter"></i>Tweet me on Twitter
             </a>
-            {% endunless %}
+            {% endunless %} -->
             <hr>
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-white is-marginless">
-                You Can find me here
+                Our Github Profiles
+            </h3>
+            <div class="column is-full is-size-3">
+                {% unless site.github_username1 ==  %}
+                <a id="contact-button" href="https://www.github.com/{{site.github_username1}}"
+                    class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
+                    target="_blank">
+                    <i class="fab fa-github"></i>Abito2 profile
+                </a> 
+                {% endunless %}
+                {% unless site.github_username2 ==  %}
+                <a id="contact-button" href="https://www.github.com/{{site.github_username2}}"
+                    class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
+                    target="_blank">
+                    <i class="fab fa-github"></i>Keist profile
+                </a> 
+                {% endunless %}
+                {% unless site.github_username3 ==  %}
+                <a id="contact-button" href="https://www.github.com/{{site.github_username3}}"
+                    class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
+                    target="_blank">
+                    <i class="fab fa-github"></i>Javioled profile
+                </a> 
+                {% endunless %}
+                {% unless site.github_username4 ==  %}
+                <a id="contact-button" href="https://www.github.com/{{site.github_username4}}"
+                    class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
+                    target="_blank">
+                    <i class="fab fa-github"></i>Moimoi profile
+                </a> 
+                {% endunless %}
+            </div>
+            <hr>
+            <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-white is-marginless">
+                You Can Find Here Our Videos
             </h3>
             <div class="column is-full is-size-3">
                 <!-- {% unless site.facebook_username == %}
                 <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-white"><i class="fab fa-facebook"></i></a>
                 {% endunless %} -->
-                {% unless site.twitter_username == %}
+                <!-- {% unless site.twitter_username == %}
                 <a href="https://twitter.com/intent/user?screen_name={{site.twitter_username}}" target="_blank" class="has-text-white"><i class="fab fa-twitter"></i></a>
                 {% endunless %}
                 {% unless site.instagram_username ==  %}
@@ -40,8 +74,8 @@
                 <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-white"><i class="fab fa-linkedin"></i></a>
                 {% endunless %}
                 {% unless site.github_username ==  %}
-                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-white"><i class="fab fa-github"></i></a>
-                {% endunless %}
+                <a href="http://www.linkedin.com/in/{{site.github_username}}" target="_blank" class="has-text-white"><i class="fab fa-linkedin"></i></a>
+                {% endunless %} -->
                 {% unless site.youtube_channel_id ==  %}
                 <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-white"><i class="fab fa-youtube"></i></a>
                 {% endunless %}
@@ -54,9 +88,9 @@
                 {% unless site.dribbble_username ==  %}
                 <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank" class="has-text-white"><i class="fab fa-dribbble"></i></a>
                 {% endunless %}-->
-                {% unless site.spotify_username ==  %}
+                <!-- {% unless site.spotify_username ==  %}
                 <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-white"><i class="fab fa-spotify"></i></a>
-                {% endunless %}
+                {% endunless %} -->
             </div>
         </div>
     </div>

@@ -9,16 +9,16 @@ baseurl:
 # Title of the Site
 title: Nocom-Pila
 # Description of the Site
-description: Nocom_Pila page
+description: Nocom-Pila web page
 # URL of Image of the Site
-site-image: https://github.com/vbarcena2020/Nocom-Pila/blob/master/assets/images/Nocom-pila.jpeg
+site-image: https://github.com/vbarcena2020/Nocom-Pila/blob/master/assets/images/Nocom-pila.jpeg?raw=true
 # Keywords of the Site
 site-keywords: Site
 # URL for the Image of custom Favicon
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: "https://github.com/vbarcena2020/Nocom-Pila/blob/master/assets/images/Nocom-pila.jpeg"
+heroimage: "https://github.com/vbarcena2020/Nocom-Pila/blob/master/assets/images/Nocom-pila.jpeg?raw=true"
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -27,7 +27,10 @@ facebook_username: /
 twitter_username: /
 instagram_username: /
 linkedin_username: /
-github_username:  /
+github_username1:  vbarcena2020
+github_username2:  mpancracio2020
+github_username3:  javioled
+github_username4:  mmunozs2020
 youtube_channel_id: UCkxcA536jBns0uDtC1Zzx0A
 reddit_username: /
 behance_username: /
@@ -43,12 +46,13 @@ disqus-shortname: Nocom-Pila
 # Name of the Author
 author-name: Nocom-Pila
 # URL for the Image of the Author
-author-image: https://github.com/vbarcena2020/Nocom-Pila/blob/master/assets/images/NC_logo_img.png
+author-image: https://github.com/vbarcena2020/Nocom-Pila/blob/master/assets/images/NC_logo_img.png?raw=true
 # 60 Words About the Author
-author-about: I am a student in software robotics engineering, at King Juan Carlos University, Spain.
-author-about1: I member of Robotech association and member of Nocom-pila, winner of European RoboCup@Home Education 2022, Portugal.
-author-about2: I am going to use this blog to publish my progress in some proyects or subjects like "Robótica móvil".
-author-about3: "My skills:"
+author-about: We are a group composed by four software robotics engineering students, at King Juan Carlos University, Spain.
+author-about1: This group was formed to carry out various robotic and software projects.  
+author-about2: We have knowledge of various programming languages but the ones we have developed the most in are Python and C++. The midelware that we use to carry out our projects is ROS and ROS2 and the robots we have programed are Kobuki and Tiago.
+author-about3: Finally, we are the winners of European RoboCup@Home Education 2022, Portugal.
+
 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/vbarcena2020
